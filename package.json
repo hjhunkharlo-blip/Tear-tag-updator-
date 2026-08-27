@@ -1,12 +1,16 @@
 {
-  "name": "havoc-styx-bot",
+  "name": "havoc-styx-api",
   "version": "1.0.0",
-  "description": "HAVOC STYX automatic tier bot",
+  "description": "HAVOC STYX Tier API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
-    "discord.js": "^14.25.1"
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
   }
 }
